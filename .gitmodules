@@ -1,0 +1,3 @@
+[submodule "apps/douren-frontend"]
+	path = apps/douren-frontend
+	url = https://github.com/Tantanok221/Douren

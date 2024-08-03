@@ -1,5 +1,5 @@
 {
-  "name": "Douren",
+  "name": "douren",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -19,5 +19,7 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+  }
 }

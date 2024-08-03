@@ -1,0 +1,30 @@
+{
+  "name": "trpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js",
+    "type-check": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "drizzle-kit": "^0.23.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.8.1",
+    "@trpc/client": "^11.0.0-rc.477",
+    "@trpc/server": "^11.0.0-rc.477",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.32.1",
+    "postgres": "^3.4.4"
+  }
+}
