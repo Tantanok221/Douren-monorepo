@@ -2,12 +2,10 @@
   "name": "trpc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
     "dev": "npx nodemon",
-    "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/index.js",
-    "type-check": "tsc"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
